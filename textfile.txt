@@ -1,0 +1,35 @@
+ printf("****************************************          "); printf(" *****************************************\n");
+    printf("*                                      *          "); printf(" *  Category   *          DATA           *\n");
+    printf("*        CATEGORY OF GUESSES           *          "); printf(" *****************************************\n");
+    printf("*                                      *          "); printf(" *             *   1    *   2    *  3    *\n");
+    printf("****************************************          "); printf(" *     LOW     *   4    *   5    *  6    *\n");
+    printf("*                                      *          "); printf(" *             *   7    *   8    *  9    *\n");
+    printf("*  O  -  Odd       *     F  -  Left    *          "); printf(" *             *   10   *   11   *  12   *\n");
+    printf("*                                      *          "); printf(" *****************************************\n");
+    printf("*  E  -  Even      *     C  -  Center  *          "); printf(" *             *   13   *   14   *  15   *\n");
+    printf("*                                      *          "); printf(" *             *   16   *   17   *  18   *\n");
+    printf("*  L  -  Low       *     R  -  Right   *          "); printf(" *   MEDIUM    *   19   *   20   *  21   *\n");
+    printf("*                                      *          "); printf(" *             *   22   *   23   *  24   *\n");
+    printf("*  M  -  Med       *     N  -  Number  *          "); printf(" *****************************************\n");
+    printf("*                                      *          "); printf(" *             *   25   *   26   *  27   *\n");
+    printf("*  H  -  High      *                   *          "); printf(" *    HIGH     *   28   *   29   *  30   *\n");
+    printf("*                                      *          "); printf(" *             *   31   *   32   *  33   *\n");
+    printf("*                                      *          "); printf(" *             *   34   *   35   *  36   *\n");
+    printf("*                                      *          "); printf(" *****************************************\n");
+    printf("*                                      *          "); printf(" *  Category   *  LEFT  * CENTER * RIGHT *\n");
+    printf("****************************************          "); printf(" *****************************************\n\n\n");
+
+
+    printf("  ***************************************************************************************\n");
+    printf("  *                                  How To Play ?                                      *\n");
+    printf("  ***************************************************************************************\n");
+    printf("  *                                                                                     *\n");
+    printf("  * 1. Number of Guess cannot exceed 5 and not less than 1                              *\n");
+    printf("  *                                                                                     *\n");
+    printf("  * 2. if you choose (N - Number) you must guess what number will be generate.          *\n");
+    printf("  *    Other than that, you must guess the position of the number will be generate      *\n");
+    printf("  *    Refer table above to know number position                                        *\n");
+    printf("  *                                                                                     *\n");
+    printf("  * 3. Number that will be generate is between 1 - 36                                   *\n");
+    printf("  *                                                                                     *\n");
+    printf("  ***************************************************************************************\n\n");
