@@ -43,18 +43,18 @@ public class PurchaseInterfaces {
         double price = input.nextInt();
         transaction.getItem().setPrice(price);
 
-        item_name = transaction.getItem().getItemName();
-        quantity = transaction.getItem().getQuantity();
-        price = transaction.getItem().getPrice();
+        String iName = customer.getTrans().getItem().getItemName();
+        int iQuantity = customer.getTrans().getItem().getQuantity();
+        double iPrice = customer.getTrans().getItem().getPrice();
 
-        double total_price = transaction.computeTotalPrice();
+        double total_price = customer.getTrans().computeTotalPrice();
 
         System.out.println("TRANSACTION OUTPUT & TOTAL PRICE");
         System.out.println("Customer Name:\t"+customer.getCustomerName());
         System.out.println("Customer ID:\t"+ Customer.getCustomerID());
-        System.out.println("Transaction ID:\t"+transaction.getTransID());
-        System.out.println("Item Name:\t"+item_name+"\t || \tItem Quantity: "+quantity);
-        System.out.println("Item Price: RM"+price+"\t || \tItem Total Price: RM"+total_price);
+        System.out.println("Transaction ID:\t"+ customer.getTrans().getTransID());
+        System.out.println("Item Name:\t"+iName+"\t || \tItem Quantity: "+iQuantity);
+        System.out.println("Item Price: RM"+iPrice+"\t || \tItem Total Price: RM"+total_price);
 
     }
 }
