@@ -86,7 +86,7 @@ public class Main{
                 else if(income >= 372951)
                     tax = 35;
                 else {
-                    System.out.println("Invalid income input");
+                    System.out.println("Invalid income in put");
                 }
                 break;
             default:
